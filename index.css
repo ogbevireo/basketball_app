@@ -35,8 +35,11 @@ span {
     height: 385px;
     background: #075985;
 
-    border: 3px solid white;
+    border: 7px solid #FDE68A;
     border-radius: 13px;
+    padding: 21px;
+    /* display: grid;
+    place-items: center; */
 }
 
 
