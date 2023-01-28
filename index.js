@@ -57,7 +57,7 @@ document.getElementById("reset").onclick = function () {
     curScrGuestEl.textContent = curScrGuest;
 
     clearInterval(intervalId);
-    document.getElementById("countdown").innerHTML = "1:00:00";
+    document.getElementById("countdown").innerHTML = "60:00";
     startTimer();
 };
 
