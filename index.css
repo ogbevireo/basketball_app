@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    src: url("CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    display: grid;
+    place-content: center;
+
+}
+
+span {
+    border-bottom: 3px solid gold;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    width: 575px;
+    height: 385px;
+    background: #075985;
+
+    border: 3px solid white;
+    border-radius: 13px;
+}
+
+
+.currentScore {
+    width: 155px;
+    height: 120px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+    text-align: center;
+    color: #F94F6D;
+    background: #080001;
+    border-radius: 5px;
+}
+
+#countdown {
+    display: flex;
+    flex-direction: row;
+    /* justify-items: center;
+    align-items: center; */
+    /* flex: 1; */
+    margin-top: 170px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28px;
+    /* or 155% */
+
+    text-align: center;
+    color: #DDD6FE;
+
+}
+
+button {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin: 26px 2px 3px 2px;
+    padding: auto;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+
+    text-align: center;
+    color: #9AABD8;
+    background: #1B244A;
+
+}
+
+.reset {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: 320px;
+    height: 35px;
+}
+
+.reset>button {
+    margin-top: 2px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: 120px;
+    height: 35px;
+    background: #881337;
+}
+
+
+.hometeam>h3 {
+    margin-top: 68px 106px 21px 85px;
+
+}
+
+.guestteam>h3 {
+    margin-top: 68px 106px 21px 86px;
+
+}
+
+h3 {
+    /* board-title-home */
+    /* position: absolute;
+width: 149px;
+height: 36px;
+left: 340px;
+top: 68px; */
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+
+    color: #EEEEEE;
+}

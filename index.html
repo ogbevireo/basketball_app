@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container row">
+      <div class="hometeam">
+        <h3>H<span>OME</span></h3>
+        <div class="currentScore" id="curScrHome">0</div>
+        <div class="addscore row">
+          <button class="column add1" onclick="hadd1()">+1</button>
+          <button class="column add2" onclick="hadd2()">+2</button>
+          <button class="column add3" onclick="hadd3()">+3</button>
+        </div>
+      </div>
+      <div id="countdown">
+        <h4></h4>
+      </div>
+      <div class="guestteam">
+        <h3>G<span>UEST</span></h3>
+        <div class="currentScore" id="curScrGuest">0</div>
+        <div class="addscore row">
+          <button class="column add1" onclick="gadd1()">+1</button>
+          <button class="column add2" onclick="gadd2()">+2</button>
+          <button class="column add3" onclick="gadd3()">+3</button>
+        </div>
+      </div>
+      <div class="reset row">
+        <button id="reset">RESET</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
